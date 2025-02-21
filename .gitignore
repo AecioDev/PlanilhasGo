@@ -1,0 +1,39 @@
+# IDE
+.vscode/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Binary directory
+bin/
+
+# Log files
+**/*.log
+
+# Develelop config file
+config/config.go
+
+# Profiling files
+**/*.prof
+
+# Other
+todo.txt
+notes.txt
+notes
+
+# DB Dumps
+dump.sql
+
+# Arquivos de seeding do DB
+ramais.xlsx
+colaboradores-copia.xlsx
