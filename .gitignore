@@ -30,6 +30,7 @@ config/config.go
 todo.txt
 notes.txt
 notes
+scriptFerias.sql
 
 # DB Dumps
 dump.sql

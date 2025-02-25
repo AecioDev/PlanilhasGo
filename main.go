@@ -21,9 +21,12 @@ func getFilePath() string {
 	return filePath
 }
 
+// Importar Férias: go run main.go ferias loc 2
+// Importar Sistemas: go run main.go sistema loc 2
+
 func main() {
 	if len(os.Args) < 4 {
-		log.Fatal("Uso: go run main.go <comando> <Linha Inicial> <ambiente: loc, hom, dev>")
+		log.Fatal("Uso: go run main.go <comando> <ambiente: loc, hom, dev> <Linha Inicial>")
 	}
 
 	comando := os.Args[1]
